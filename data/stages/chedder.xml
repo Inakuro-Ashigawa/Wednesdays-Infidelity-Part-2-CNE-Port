@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="/" zoom="0.67">
+	<gf/>
+	<sprite x="-658" y="-280" sprite="stages/BG_CHEDDER" name="BG_CHEDDER"/>
+	<dad x="-50" y="100"/>
+	<bf x="870" y="100"/>
+	<combo x="1288.5" y="748"/>
+</stage>

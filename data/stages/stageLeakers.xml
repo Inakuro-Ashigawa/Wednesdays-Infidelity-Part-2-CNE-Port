@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="backgrounds/leakers/">
+	<sprite scrolly="1.05" x="-1500" y="-230" sprite="bg" scrollx="1.05" name="bar"/>
+	<sprite scrolly="1.05" x="-240" y="160" sprite="mesa1" scrollx="1.05" name="mesaone"/>
+	<sprite scrolly="1.01" x="-550" y="390" sprite="mesa2" scrollx="1.01" name="mesatwo"/>
+	<sprite scrolly="0.9" x="-1400" y="550" sprite="mesa3" scrollx="1.1" name="mesatres"/>
+	<gf x="1255" y="162.5"/>
+	<sprite scrolly="0.9" x="1600" y="550" sprite="mesa4" scrollx="1.1" name="mesacuatro"/>
+	<dad x="-150" y="190"/>
+	<bf x="1007.5" y="117.5"/>
+	<combo x="958.5" y="301"/>
+</stage>

@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character x="-127" holdTime="4" camx="148" y="258" camy="174" isPlayer="true" flipX="true">
+	<anim x="37" loop="false" y="11" fps="12" anim="BF dies" name="firstDeath"/>
+	<anim x="-3" loop="false" y="-97" fps="24" anim="BF Dead Loop" name="deathLoop"/>
+	<anim x="8" loop="false" y="-97" fps="24" anim="BF Dead confirm" name="deathConfirm"/>
+</character>

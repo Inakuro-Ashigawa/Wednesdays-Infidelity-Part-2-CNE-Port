@@ -1,0 +1,47 @@
+import flixel.text.FlxTextFormatMarkerPair;
+import flixel.text.FlxTextFormat;
+
+var lyricsBG:FlxSprite;
+var lyricsTxt:FunkinText;
+
+function postCreate() {
+	lyricsBG = new FunkinSprite().makeSolid(1, 1, 0xFF000000);
+	lyricsBG.cameras = [camHUD];
+	lyricsBG.alpha = 0.35;
+	add(lyricsBG);
+
+	lyricsTxt = new FunkinText(0, 0, 0, 'you shouldn\'t be seeing this' , 24, 0xFFFFFFFF, true);
+	lyricsTxt.cameras = [camHUD];
+	lyricsTxt.updateHitbox();
+	lyricsTxt.screenCenter();
+	lyricsTxt.y += 200;
+	lyricsTxt.borderSize = 3;
+	add(lyricsTxt);
+
+	lyricsBG.setGraphicSize(lyricsTxt.width + 15, lyricsTxt.height + 15);
+	lyricsBG.setPosition(lyricsTxt.x - 7.5, lyricsTxt.y - 7.5);
+	lyricsBG.updateHitbox();
+	
+	lyricsBG.alpha = 0.001;
+	lyricsTxt.alpha = 0.001;
+}
+
+function onEvent(_)
+	if (_.event.name == 'Lyrics') {
+		lyricsBG.alpha = _.event.params[0] == '' ? 0.001 : 0.35;
+		lyricsTxt.alpha = _.event.params[0] == '' ? 0.001 : 1;
+
+		lyricsTxt.clearFormats();
+		lyricsTxt.text = StringTools.replace(_.event.params[0], _.event.params[1], '');
+		lyricsTxt.color = _.event.params[2];
+
+		lyricsTxt.updateHitbox();
+		lyricsTxt.screenCenter();
+		lyricsTxt.y += 200;
+
+		lyricsTxt.applyMarkup(_.event.params[0], [new FlxTextFormatMarkerPair(new FlxTextFormat(_.event.params[3]), _.event.params[1])]);
+
+		lyricsBG.setGraphicSize(lyricsTxt.width + 15, lyricsTxt.height + 15);
+		lyricsBG.setPosition(lyricsTxt.x - 7.5, lyricsTxt.y - 7.5);
+		lyricsBG.updateHitbox();
+	}

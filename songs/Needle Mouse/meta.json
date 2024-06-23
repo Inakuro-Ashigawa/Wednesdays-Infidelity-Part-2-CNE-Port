@@ -1,0 +1,16 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 150,
+	"difficulties": [
+		"hard"
+	],
+	"needsVoices": true,
+	"parsedColor": -15134435,
+	"displayName": "Needle Mouse",
+	"icon": "sus",
+	"name": "Needle Mouse",
+	"color": "#19111D"
+}

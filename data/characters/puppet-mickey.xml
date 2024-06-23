@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="130" icon="julian" y="350" scale="1.2" isGF="false" color="#848484" isPlayer="false" antialiasing="false" holdTime=" 4.00000000000001" sprite="puppet-mickey">
+	<anim x="0" loop="true" y="0" fps="28" anim="julian idle" name="idle1"/>
+	<anim x="-13" loop="false" y="-6" fps="32" anim="julian left" name="singLEFT"/>
+	<anim x="34" loop="false" y="-54" fps="24" anim="julian down" name="singDOWN"/>
+	<anim x="79" loop="false" y="22" fps="24" anim="julian up" name="singUP"/>
+	<anim x="24" loop="false" y="-87" fps="24" anim="julian right" name="singRIGHT"/>
+</character>

@@ -1,0 +1,3 @@
+function postCreate() {
+trees.scrollFactor.set(0.25, 0.5);
+}

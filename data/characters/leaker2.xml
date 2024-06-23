@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="LEAKER 2" y="120" isGF="true" scale="1.2" color="#383B39" isPlayer="false" antialiasing="false" gameOverChar="LEAKER-death" holdTime="4.5" sprite="LEAKER 2">
+	<anim x="-5" loop="false" y="2" fps="24" anim="LEAKER 2 IDLE" name="idle"/>
+	<anim x="71" loop="false" y="201" fps="24" anim="LEAKER 2 UP0" name="singUP"/>
+	<anim x="-30" loop="false" y="-5" fps="24" anim="leaker 2 DOWN0" name="singDOWN"/>
+	<anim x="240" loop="false" y="5" fps="24" anim="LEAKER 2 LEFT" name="singLEFT"/>
+	<anim x="-90" loop="false" y="-30" fps="24" anim="LEAKER 2 RIGHT" name="singRIGHT"/>
+	<anim x="95" loop="false" y="10" fps="24" anim="floss" name="floss"/>
+	<anim x="10" loop="false" y="30" fps="24" anim="Leaker amante del poto" name="kiss ass"/>
+</character>

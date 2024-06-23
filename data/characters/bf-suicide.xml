@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-character>
+<character x="55" icon="bf-suicide" y="395" isGF="false" scale="1.2" color="#7D8080" isPlayer="true" antialiasing="false" gameOverChar="bf-suicide" flipX="true" sprite="BOYFRIEND-SUICIDE">
+	<anim x="0" loop="false" y="0" fps="24" anim="BF idle dance" name="idle"/>
+	<anim x="13" loop="false" y="11" fps="24" anim="BF NOTE UP0" name="singUP"/>
+	<anim x="5" loop="false" y="-35" fps="24" anim="BF NOTE DOWN0" name="singDOWN"/>
+	<anim x="46" loop="false" y="6" fps="24" anim="BF NOTE LEFT0" name="singLEFT"/>
+	<anim x="-30" loop="false" y="4" fps="24" anim="BF NOTE RIGHT0" name="singRIGHT"/>
+	<anim x="45" loop="false" y="45" fps="24" anim="BF NOTE UP MISS" name="singUPmiss"/>
+	<anim x="5" loop="false" y="15" fps="24" anim="BF NOTE DOWN MISS" name="singDOWNmiss"/>
+	<anim x="44" loop="false" y="72" fps="24" anim="BF NOTE LEFT MISS" name="singLEFTmiss"/>
+	<anim x="-25" loop="false" y="30" fps="24" anim="BF NOTE RIGHT MISS" name="singRIGHTmiss"/>
+	<anim x="6" loop="false" y="-30" fps="24" anim="BF dies" name="BF dies"/>
+	<anim x="-15" loop="true" y="-29" fps="24" anim="BF Dead Loop" name="BF Dead Loop"/>
+	<anim x="15" loop="false" y="-36" fps="24" anim="BF Dead confirm" name="BF Dead confirm"/>
+	<anim x="5" loop="false" y="15" fps="24" anim="boyfriend dodge" name="dodge"/>
+</character>

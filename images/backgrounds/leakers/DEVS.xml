@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BG.png">
+<!-- Created with Kades Custom Converter -->
+<SubTexture name="DEVS0007" x="8" y="8" width="982" height="338" frameX="-0" frameY="-0" frameWidth="982" frameHeight="338"/>
+<SubTexture name="DEVS0009" x="8" y="362" width="982" height="338" frameX="-0" frameY="-0" frameWidth="982" frameHeight="338"/>
+<SubTexture name="DEVS0005" x="8" y="717" width="982" height="338" frameX="-0" frameY="-1" frameWidth="982" frameHeight="338"/>
+<SubTexture name="DEVS0003" x="8" y="1070" width="982" height="337" frameX="-0" frameY="-2" frameWidth="982" frameHeight="337"/>
+<SubTexture name="DEVS0001" x="8" y="1423" width="982" height="335" frameX="-0" frameY="-3" frameWidth="982" frameHeight="335"/>
+<SubTexture name="DEVS0002" x="8" y="1423" width="982" height="335" frameX="-0" frameY="-3" frameWidth="982" frameHeight="335"/>
+<SubTexture name="DEVS0004" x="8" y="1070" width="982" height="337" frameX="-0" frameY="-2" frameWidth="982" frameHeight="337"/>
+<SubTexture name="DEVS0006" x="8" y="717" width="982" height="338" frameX="-0" frameY="-1" frameWidth="982" frameHeight="338"/>
+<SubTexture name="DEVS0008" x="8" y="8" width="982" height="338" frameX="-0" frameY="-0" frameWidth="982" frameHeight="338"/>
+<SubTexture name="DEVS0010" x="8" y="362" width="982" height="338" frameX="-0" frameY="-0" frameWidth="982" frameHeight="338"/>
+<SubTexture name="DEVS0011" x="8" y="362" width="982" height="338" frameX="-0" frameY="-0" frameWidth="982" frameHeight="338"/>
+<SubTexture name="DEVS0012" x="8" y="362" width="982" height="338" frameX="-0" frameY="-0" frameWidth="982" frameHeight="338"/>
+<SubTexture name="DEVS0013" x="8" y="362" width="982" height="338" frameX="-0" frameY="-0" frameWidth="982" frameHeight="338"/>
+</TextureAtlas>

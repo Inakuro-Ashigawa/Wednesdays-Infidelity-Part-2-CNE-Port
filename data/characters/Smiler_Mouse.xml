@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-70" icon="mouse-phase2" camx="-120" y="30" isGF="false" scale="1.2" camy="30" color="#525951" isPlayer="false" sprite="Smiler_Mouse">
+	<anim x="0" loop="false" y="0" fps="24" anim="smiler mouse idle" name="idle1"/>
+	<anim x="90" loop="false" y="105" fps="24" anim="smiler mouse up" name="singUP"/>
+	<anim x="30" loop="false" y="-30" fps="24" anim="smiler mouse down" name="singDOWN"/>
+	<anim x="90" loop="false" y="125" fps="24" anim="smiler mouse left" name="singLEFT"/>
+	<anim x="5" loop="false" y="50" fps="24" anim="smiler mouse rigth" name="singRIGHT"/>
+</character>

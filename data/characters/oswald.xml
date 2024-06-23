@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="-300" icon="Oswald" camx="172" y="200" isGF="false" scale="1.2" camy="30" color="#535552" isPlayer="false" sprite="oswald">
+	<anim x="0" loop="false" y="0" fps="24" anim="OSWALD IDLE" name="idle1"/>
+	<anim x="36" loop="false" y="30" fps="24" anim="Oswald Left" name="singLEFT"/>
+	<anim x="-118" loop="false" y="6" fps="24" anim="Oswald Down" name="singDOWN"/>
+	<anim x="-176" loop="false" y="19" fps="24" anim="Oswald Up" name="singUP"/>
+	<anim x="-156" loop="false" y="-62" fps="24" anim="OSWALD RIGHT" name="singRIGHT"/>
+	<anim x="23" loop="false" y="70" fps="24" anim="OSWALD DIALOGUE INTRO" name="intro"/>
+</character>

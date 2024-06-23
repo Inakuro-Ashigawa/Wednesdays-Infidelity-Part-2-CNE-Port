@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="80" icon="dad" y="370" isGF="false" flipX="true"  color="#848484"  isPlayer="true" holdTime="6.1" sprite="Prisoner_Mickey">
+	<anim x="0" loop="false" y="0" fps="24" anim="MAD MIKI IDLE" name="idle"/>
+	<anim x="2" loop="false" y="9" fps="24" anim="MAD MIKI LEFT" name="singLEFT"/>
+	<anim x="6" loop="false" y="-21" fps="24" anim="MAD MIKI DOWN" name="singDOWN"/>
+	<anim x="-30" loop="false" y="35" fps="24" anim="MAD MIKI UP" name="singUP"/>
+	<anim x="-24" loop="false" y="29" fps="24" anim="MAD MIKI RIGHT" name="singRIGHT"/>
+</character>

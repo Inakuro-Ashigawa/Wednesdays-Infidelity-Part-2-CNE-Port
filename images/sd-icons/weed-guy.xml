@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.2 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="texture.png" width="595" height="440">
+	<SubTexture name="losing0000" x="477" y="142" width="92" height="105" frameX="-34" frameY="-28" frameWidth="165" frameHeight="167"/>
+	<SubTexture name="normal0004" x="1" y="1" width="187" height="148" frameX="-21" frameY="-52" frameWidth="229" frameHeight="231"/>
+	<SubTexture name="normal0002" x="191" y="1" width="141" height="188" frameX="-54" frameY="-21" frameWidth="229" frameHeight="231"/>
+	<SubTexture name="normal0000" x="1" y="152" width="184" height="147" frameX="-22" frameY="-34" frameWidth="229" frameHeight="231"/>
+	<SubTexture name="normal0006" x="188" y="192" width="181" height="139" frameX="-25" frameY="-50" frameWidth="229" frameHeight="231"/>
+	<SubTexture name="normal0008" x="335" y="1" width="172" height="138" frameX="-30" frameY="-45" frameWidth="229" frameHeight="231"/>
+	<SubTexture name="normal0010" x="1" y="302" width="168" height="137" frameX="-32" frameY="-44" frameWidth="229" frameHeight="231"/>
+	<SubTexture name="losing0004" x="172" y="334" width="114" height="105" frameX="-23" frameY="-28" frameWidth="165" frameHeight="167"/>
+	<SubTexture name="losing0005" x="289" y="334" width="110" height="105" frameX="-25" frameY="-28" frameWidth="165" frameHeight="167"/>
+	<SubTexture name="losing0002" x="372" y="142" width="102" height="105" frameX="-29" frameY="-28" frameWidth="165" frameHeight="167"/>
+	<SubTexture name="losing0003" x="402" y="250" width="97" height="105" frameX="-32" frameY="-28" frameWidth="165" frameHeight="167"/>
+	<SubTexture name="losing0001" x="510" y="1" width="84" height="105" frameX="-38" frameY="-28" frameWidth="165" frameHeight="167"/>
+	<SubTexture name="normal0001" x="1" y="152" width="184" height="147" frameX="-22" frameY="-34" frameWidth="229" frameHeight="231"/>
+	<SubTexture name="normal0003" x="191" y="1" width="141" height="188" frameX="-54" frameY="-21" frameWidth="229" frameHeight="231"/>
+	<SubTexture name="normal0005" x="1" y="1" width="187" height="148" frameX="-21" frameY="-52" frameWidth="229" frameHeight="231"/>
+	<SubTexture name="normal0007" x="188" y="192" width="181" height="139" frameX="-25" frameY="-50" frameWidth="229" frameHeight="231"/>
+	<SubTexture name="normal0009" x="335" y="1" width="172" height="138" frameX="-30" frameY="-45" frameWidth="229" frameHeight="231"/>
+	<SubTexture name="normal0011" x="1" y="302" width="168" height="137" frameX="-32" frameY="-44" frameWidth="229" frameHeight="231"/>
+	<SubTexture name="normal0012" x="1" y="302" width="168" height="137" frameX="-32" frameY="-44" frameWidth="229" frameHeight="231"/>
+	<SubTexture name="normal0013" x="1" y="302" width="168" height="137" frameX="-32" frameY="-44" frameWidth="229" frameHeight="231"/>
+	<SubTexture name="normal0014" x="1" y="302" width="168" height="137" frameX="-32" frameY="-44" frameWidth="229" frameHeight="231"/>
+</TextureAtlas>

@@ -1,0 +1,16 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 185,
+	"difficulties": [
+		"hard"
+	],
+	"needsVoices": true,
+	"parsedColor": -102802,
+	"displayName": "Versiculus Iratus",
+	"icon": "skinnysatan",
+	"name": "versiculus-iratus",
+	"color": "#FE6E6E"
+}

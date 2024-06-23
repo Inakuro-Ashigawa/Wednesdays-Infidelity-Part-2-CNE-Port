@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="80" icon="mickeyprison" color="#848484"  y="370" isGF="false" flipX="true" isPlayer="true" antialiasing="false" holdTime="6.1" sprite="FINAL_SUICIDE_MOUSE">
+	<anim x="-82" loop="false" y="170" fps="24" anim="FINAL MIKI IDLE" name="idle"/>
+	<anim x="48" loop="false" y="149" fps="24" anim="FINAL MIKI LEFT" name="singLEFT"/>
+	<anim x="-84" loop="false" y="85" fps="24" anim="FINAL MIKI DOWN" name="singDOWN"/>
+	<anim x="-82" loop="false" y="269" fps="24" anim="FINAL MIKI UP" name="singUP"/>
+	<anim x="-83" loop="false" y="163" fps="24" anim="FINAL MIKI RIGHT" name="singRIGHT"/>
+</character>

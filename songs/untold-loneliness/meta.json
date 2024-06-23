@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"bpm": 200,
+	"difficulties": [
+		"D-SIDE"
+	],
+	"needsVoices": true,
+	"parsedColor": -13421773,
+	"displayName": "Untold Loneliness",
+	"icon": "oswald-suicide",
+	"name": "untold-loneliness",
+	"color": "#333333"
+}

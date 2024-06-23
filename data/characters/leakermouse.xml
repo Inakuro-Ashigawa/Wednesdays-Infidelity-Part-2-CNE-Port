@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="leakermouse" camx="-10" y="-30" isGF="false" scale="1.2" camy="200" color="#534747" isPlayer="false" antialiasing="false" sprite="MICKEY LEAKER">
+	<anim x="2" loop="false" y="-120" fps="24" anim="MIKI IDLE" name="idle1"/>
+	<anim x="-28" loop="false" y="-110" fps="24" anim="MIKI UP" name="singUP"/>
+	<anim x="-58" loop="false" y="-190" fps="24" anim="MIKI DOWN" name="singDOWN"/>
+	<anim x="79" loop="false" y="-127" fps="24" anim="MIKI LEFT" name="singLEFT"/>
+	<anim x="-58" loop="false" y="-161" fps="24" anim="MIKI RIGHT" name="singRIGHT"/>
+	<anim x="79" loop="false" y="-85" fps="24" anim="MIKI WAIFU" name="wafiu"/>
+	<anim x="-11" loop="false" y="-75" fps="24" anim="LEAKERS NOOBS" name="book"/>
+	<anim x="20" loop="false" y="-108" fps="24" anim="MIKI WHATS THAT" name="whats that"/>
+	<anim x="-33" loop="false" y="-95" fps="24" anim="BOOK MIKI IDLE" name="idle-alt"/>
+	<anim x="-57" loop="false" y="-79" fps="24" anim="BOOK MIKI UP" name="singUP-alt"/>
+	<anim x="-42" loop="false" y="-150" fps="24" anim="BOOK MIKI DOWN" name="singDOWN-alt"/>
+	<anim x="25" loop="false" y="-110" fps="24" anim="BOOK MIKI LEFT" name="singLEFT-alt"/>
+	<anim x="-62" loop="false" y="-117" fps="24" anim="BOOK MIKI RIGHT" name="singRIGHT-alt"/>
+</character>

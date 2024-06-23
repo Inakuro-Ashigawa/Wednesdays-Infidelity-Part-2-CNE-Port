@@ -1,0 +1,16 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 170,
+	"difficulties": [
+		"hard"
+	],
+	"needsVoices": true,
+	"parsedColor": -15265507,
+	"displayName": "Unknown Defeat",
+	"icon": "sus",
+	"name": "unknown-defeat",
+	"color": "#17111D"
+}

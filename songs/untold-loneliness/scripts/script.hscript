@@ -1,0 +1,198 @@
+import flixel.addons.util.FlxSimplex;
+
+var distortion:CustomShader;
+var aberration:CustomShader;
+var contrast:CustomShader;
+
+var modchartStuff:Bool = false;
+
+function postCreate() {
+	camGame.bgColor = 0xFF000000;
+	camHUD.fade(0xFF000000, 0.001);
+
+	if (!FlxG.save.data.infidelitySHADERS) {
+		distortion = new CustomShader('distortion');
+		distortion.iTime = 0;
+		distortion.glitchModifier = 2;
+		distortion.moveScreenFullX = true;
+		distortion.moveScreenX = true;
+		distortion.moveScreenFullY = true;
+		distortion.fullglitch = 2;
+		distortion.working = false;
+		distortion.timeMulti = 2.;
+		distortion.effectMulti = 4.;
+		distortion.iResolution = [FlxG.width, FlxG.height];
+		camGame.addShader(distortion);
+
+		aberration = new CustomShader('chromatic-aberration');
+		aberration.strength = 0;
+		camGame.addShader(aberration);
+		aberration.effectTime = 0.1;
+
+		contrast = new CustomShader('brightness-contrast');
+		camGame.addShader(contrast);
+		contrast.brightness = 0;
+		contrast.contrast = 1;
+	}
+}
+
+if (!FlxG.save.data.infidelitySHADERS) {
+	function chromaticTween(value) aberration.strength = value;
+	function chromaticEffectTween(value) aberration.effectTime = value;
+
+	function brightnessTween(value) contrast.brightness = value;
+	function contrastTween(value) contrast.contrast = value;
+
+	var dumbstupid:Float = 0;
+	function update(elapsed) {
+		dumbstupid += elapsed;
+		distortion.iTime = dumbstupid;
+		distortion.iResolution = [FlxG.width, FlxG.height];
+	}
+}
+
+var alternate:Bool = true;
+function beatHit() {
+	if (modchartStuff) {
+		alternate = !alternate;
+		for (sl in strumLines.members) {
+			for (strum in sl.members) {
+				FlxTween.completeTweensOf(strum, ['y']);
+				FlxTween.tween(strum, {y: 50 + ((50 * (((sl.members.indexOf(strum) - 1) * 0.25) * (alternate ? -1 : 1))) * (sl.opponentSide == true ? 1 : -1))}, (Conductor.stepCrochet*2)/1000, {ease: FlxEase.circOut, onComplete: function() {
+					FlxTween.completeTweensOf(strum, ['y']);
+					FlxTween.tween(strum, {y: 50}, (Conductor.stepCrochet*2)/1000, {ease: FlxEase.circIn});
+				}});
+			}
+		}
+	}   
+}
+
+function stepHit()
+	switch(curStep) {
+		case 28:
+			if (!FlxG.save.data.infidelitySHADERS) {
+				distortion.working = true;
+
+				FlxTween.num(0, 0.5, (Conductor.stepCrochet*4)/1000-0.1, {ease: FlxEase.quantIn}, chromaticTween);
+				FlxTween.num(0.1, 0.5, (Conductor.stepCrochet*4)/1000-0.1, {ease: FlxEase.quantIn}, chromaticEffectTween);
+
+				FlxTween.num(0, -0.05, (Conductor.stepCrochet*4)/1000-0.1, {ease: FlxEase.quantIn}, brightnessTween);
+				FlxTween.num(1, 1.05, (Conductor.stepCrochet*4)/1000-0.1, {ease: FlxEase.quantIn}, contrastTween);
+			}
+		case 32:
+			if (!FlxG.save.data.infidelitySHADERS) {
+				aberration.strength = 0;
+				aberration.effectTime = 0.1;
+
+				contrast.brightness = 0;
+				contrast.contrast = 1;
+
+				distortion.working = false;
+			}
+			for (i in [scoreSideTxt, ratingsTxt, songTxt, timeBar, timeBarBG, timeTxt, healthBarBG, healthBar, iconP1, iconP2])
+				i.alpha = 0.001;
+
+		case 160:
+			for (strum in cpu.members) {
+				strum.y -= 400;
+				FlxTween.tween(strum, {y: strum.y + 400}, 0.25, {ease: FlxEase.circOut, startDelay: 0.05 * cpu.members.indexOf(strum)});
+			}
+		case 216:
+			for (strum in player.members) {
+				strum.y -= 400;
+				FlxTween.tween(strum, {y: strum.y + 400}, 0.25, {ease: FlxEase.circOut, startDelay: 0.05 * player.members.indexOf(strum)});
+			}
+		case 316:
+			for (i in [timeBar, timeBarBG])
+				FlxTween.tween(i, {alpha: 1}, 0.1, {ease: FlxEase.circOut});
+		case 318:
+			for (i in [healthBarBG, healthBar, iconP1, iconP2, timeTxt]) {
+				i.y += FlxG.height;
+				FlxTween.tween(i, {alpha: 1, y: i.y - FlxG.height}, 0.1, {ease: FlxEase.circOut});
+			}
+		case 348:
+			for (i in [scoreSideTxt, songTxt]) {
+				i.x -= FlxG.width;
+				FlxTween.tween(i, {alpha: 1, x: i.x + FlxG.width}, 0.1, {ease: FlxEase.circOut});
+			}
+		case 350:
+			ratingsTxt.x += FlxG.width;
+			FlxTween.tween(ratingsTxt, {alpha: 1, x:  ratingsTxt.x - FlxG.width}, 0.1, {ease: FlxEase.circOut});
+		case 416:
+			for (i in [scoreSideTxt, ratingsTxt, songTxt, timeBar, timeBarBG, timeTxt, healthBarBG, healthBar, iconP1, iconP2])
+				i.alpha = 0.001;
+		case 432:
+			for (i in [scoreSideTxt, ratingsTxt, songTxt, timeBar, timeBarBG, timeTxt, healthBarBG, healthBar, iconP1, iconP2])
+				i.alpha = 1;
+			modchartStuff = true;
+		case 688:
+			modchartStuff = false;
+
+			if (!FlxG.save.data.infidelitySHADERS) {
+				FlxTween.num(0, -0.5, (Conductor.stepCrochet*4)/1000-0.1, {ease: FlxEase.quantIn}, brightnessTween);
+				FlxTween.num(1, 1.5, (Conductor.stepCrochet*4)/1000-0.1, {ease: FlxEase.quantIn}, contrastTween);
+			}
+			
+
+			for (i in [scoreGroup, timeBar, timeBarBG, timeTxt, healthBarBG, healthBar, iconP1, iconP2, scoreSideTxt, songTxt, ratingsTxt])
+				FlxTween.tween(i, {alpha: 0.001}, 0.5);
+		case 696:
+			if (!FlxG.save.data.infidelitySHADERS) {
+				contrast.brightness = 0;
+				contrast.contrast = 1;
+			}
+
+		case 1208:
+
+			boyfriend.color = 0xFF000000;
+
+			for (i in stage.stageSprites.keys())
+				stage.getSprite(i).color = 0xFF000000;
+		case 1224:
+			if (!FlxG.save.data.infidelitySHADERS) {
+				FlxTween.num(0, 0.5, (Conductor.stepCrochet*8)/1000-0.1, {ease: FlxEase.quantIn}, chromaticTween);
+				FlxTween.num(0.1, 0.5, (Conductor.stepCrochet*8)/1000-0.1, {ease: FlxEase.quantIn}, chromaticEffectTween);
+			}
+		case 1240:
+			boyfriend.color = 0xFFFFFFFF;
+
+			modchartStuff = true;
+			for (i in stage.stageSprites.keys())
+				stage.getSprite(i).color = 0xFFFFFFFF;
+			
+			if (!FlxG.save.data.infidelitySHADERS) {
+				aberration.strength = 0.05;
+				aberration.effectTime = 0.1;
+			}
+
+			for (i in [scoreGroup, timeBar, timeBarBG, timeTxt, healthBarBG, healthBar, iconP1, iconP2, scoreSideTxt, songTxt, ratingsTxt])
+				FlxTween.tween(i, {alpha: 1}, 1);
+		case 2232:
+			modchartStuff = false;
+			for (i in [scoreGroup, timeBar, timeBarBG, timeTxt, healthBarBG, healthBar, iconP1, iconP2, scoreSideTxt, songTxt, ratingsTxt])
+				FlxTween.tween(i, {alpha: 0.001}, 1);
+		case 2484:
+			if (!FlxG.save.data.infidelitySHADERS) {
+				distortion.working = true;
+
+				FlxTween.num(0, 0.5, (Conductor.stepCrochet*4)/1000-0.1, {ease: FlxEase.quantIn}, chromaticTween);
+				FlxTween.num(0.1, 0.5, (Conductor.stepCrochet*4)/1000-0.1, {ease: FlxEase.quantIn}, chromaticEffectTween);
+
+				FlxTween.num(0, -0.05, (Conductor.stepCrochet*4)/1000-0.1, {ease: FlxEase.quantIn}, brightnessTween);
+				FlxTween.num(1, 1.05, (Conductor.stepCrochet*4)/1000-0.1, {ease: FlxEase.quantIn}, contrastTween);
+			}
+		case 2488:
+			if (!FlxG.save.data.infidelitySHADERS) {
+				aberration.strength = 0;
+				aberration.effectTime = 0.1;
+
+				contrast.brightness = 0;
+				contrast.contrast = 1;
+
+				distortion.working = false;
+			}
+	}
+
+function onPostCharacterChange(event)
+	if (curStep == 1208)
+		event.data.newCharacter.setColorTransform(1, 1, 1, 1, 255, 255, 255);

@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="/" zoom="0.5">
+	<sprite x="-1840" sprite="stages/julian" y="-635" scale="0.75" name="julian"/>
+	<dad x="130" y="105"/>
+	<bf x="770" y="100"/>
+	<combo x="709.5" y="425"/>
+	<gf x="-600" y="500"/>
+	<sprite x="-1930" scrolly="0.8" sprite="stages/pipi" y="-217" scale="0.9" name="pipi" scrollx="0.8"/>
+</stage>

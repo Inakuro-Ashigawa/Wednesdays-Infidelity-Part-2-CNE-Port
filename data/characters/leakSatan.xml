@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="-160" icon="leakermouse" y="0" isGF="false" scale="1.2" color="#525951" isPlayer="false" antialiasing="false" holdTime="4.1" sprite="SATAN LEAKERS">
+	<anim x="12" loop="false" y="0" fps="24" anim="SATAN LEFT0011" name="idle"/>
+	<anim x="0" loop="false" y="169" fps="24" anim="SATAN UP" name="singUP"/>
+	<anim x="0" loop="false" y="-19" fps="24" anim="SATAN DOWN" name="singDOWN"/>
+	<anim x="30" loop="false" y="110" fps="24" anim="SATAN LEFT" name="singLEFT"/>
+	<anim x="20" loop="false" y="14" fps="24" anim="SATAN RIGHT" name="singRIGHT"/>
+	<anim x="20" loop="false" y="0" fps="24" anim="SATAN DIALOGUE 1" name="talk"/>
+</character>

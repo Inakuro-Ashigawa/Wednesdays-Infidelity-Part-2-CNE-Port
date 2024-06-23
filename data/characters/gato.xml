@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character isPlayer="false" flipX="false" x="130" y="-80" holdTime="6.1">
+  <anim name="risa"       anim="Satan-laugh"       fps="24"    loop="false" x="-75" y="-150" />
+  <anim name="idle"       anim="idle-fiddle"       fps="24"    loop="false" x="-70" y="-130" />
+</character>

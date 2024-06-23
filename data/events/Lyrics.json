@@ -1,0 +1,24 @@
+{
+	"params": [
+		{
+			"name": "Text",
+			"type": "String",
+			"defaultValue": ""
+		},
+        {
+            "name": "Split text by",
+            "type": "String",
+            "defaultValue": "$"
+        },
+        {
+            "name": "Base Color",
+            "type": "ColorWheel",
+            "defaultValue": "0xFFFFFFFF"
+        },
+        {
+            "name": "Special Color",
+            "type": "ColorWheel",
+            "defaultValue": "0xFFFF0000"
+        }
+	]
+}

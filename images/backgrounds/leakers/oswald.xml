@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="oswald.png">
+<!-- Created with Kades Custom Converter -->
+<SubTexture name="OSWALD MANCO NO PUSO PARED0063" x="8" y="8" width="466" height="485" frameX="-5" frameY="-55" frameWidth="466" frameHeight="485"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0065" x="490" y="8" width="478" height="485" frameX="-5" frameY="-55" frameWidth="478" frameHeight="485"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0091" x="985" y="8" width="498" height="485" frameX="-5" frameY="-55" frameWidth="498" frameHeight="485"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0093" x="1499" y="8" width="496" height="485" frameX="-5" frameY="-55" frameWidth="496" frameHeight="485"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0097" x="2011" y="8" width="517" height="486" frameX="-5" frameY="-54" frameWidth="517" frameHeight="486"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0099" x="2544" y="8" width="517" height="487" frameX="-5" frameY="-53" frameWidth="517" frameHeight="487"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0067" x="3077" y="8" width="482" height="488" frameX="-5" frameY="-52" frameWidth="482" frameHeight="488"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0095" x="3574" y="8" width="551" height="488" frameX="-5" frameY="-52" frameWidth="551" frameHeight="488"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0101" x="4142" y="8" width="517" height="488" frameX="-5" frameY="-52" frameWidth="517" frameHeight="488"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0069" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0103" x="5172" y="8" width="517" height="489" frameX="-5" frameY="-51" frameWidth="517" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0109" x="5705" y="8" width="477" height="489" frameX="-5" frameY="-51" frameWidth="477" frameHeight="489"/>
+<SubTexture name="mesa OSWALD0001" x="6198" y="8" width="460" height="489" frameX="-0" frameY="-3" frameWidth="460" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0105" x="6674" y="8" width="517" height="490" frameX="-5" frameY="-50" frameWidth="517" frameHeight="490"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0108" x="7206" y="8" width="525" height="490" frameX="-5" frameY="-50" frameWidth="525" frameHeight="490"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0113" x="8" y="509" width="474" height="490" frameX="-5" frameY="-50" frameWidth="474" frameHeight="490"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0115" x="498" y="509" width="474" height="490" frameX="-5" frameY="-50" frameWidth="474" frameHeight="490"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0117" x="989" y="509" width="474" height="490" frameX="-5" frameY="-50" frameWidth="474" frameHeight="490"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0119" x="1479" y="509" width="474" height="490" frameX="-5" frameY="-50" frameWidth="474" frameHeight="490"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0121" x="1970" y="510" width="474" height="490" frameX="-5" frameY="-50" frameWidth="474" frameHeight="490"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0123" x="2460" y="511" width="474" height="490" frameX="-5" frameY="-50" frameWidth="474" frameHeight="490"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0125" x="2950" y="512" width="474" height="490" frameX="-5" frameY="-50" frameWidth="474" frameHeight="490"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0111" x="3441" y="512" width="473" height="490" frameX="-5" frameY="-50" frameWidth="473" frameHeight="490"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0127" x="3930" y="512" width="474" height="490" frameX="-5" frameY="-50" frameWidth="474" frameHeight="490"/>
+<SubTexture name="mesa OSWALD0003" x="4419" y="513" width="460" height="491" frameX="-0" frameY="-1" frameWidth="460" frameHeight="491"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0001" x="4895" y="513" width="461" height="492" frameX="-5" frameY="-48" frameWidth="461" frameHeight="492"/>
+<SubTexture name="mesa OSWALD0005" x="5372" y="513" width="460" height="492" frameX="-0" frameY="-0" frameWidth="460" frameHeight="492"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0129" x="5848" y="513" width="482" height="497" frameX="-0" frameY="-43" frameWidth="482" frameHeight="497"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0130" x="6346" y="514" width="474" height="497" frameX="-9" frameY="-43" frameWidth="474" frameHeight="497"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0131" x="6836" y="514" width="478" height="498" frameX="-5" frameY="-42" frameWidth="478" frameHeight="498"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0132" x="7330" y="514" width="478" height="498" frameX="-5" frameY="-42" frameWidth="478" frameHeight="498"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0133" x="8" y="1014" width="478" height="502" frameX="-5" frameY="-38" frameWidth="478" frameHeight="502"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0135" x="502" y="1014" width="478" height="502" frameX="-5" frameY="-38" frameWidth="478" frameHeight="502"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0137" x="997" y="1014" width="478" height="502" frameX="-5" frameY="-38" frameWidth="478" frameHeight="502"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0139" x="1491" y="1015" width="478" height="502" frameX="-5" frameY="-38" frameWidth="478" frameHeight="502"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0044" x="1986" y="1015" width="451" height="510" frameX="-5" frameY="-40" frameWidth="451" frameHeight="510"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0060" x="2453" y="1017" width="450" height="513" frameX="-5" frameY="-38" frameWidth="450" frameHeight="513"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0004" x="2919" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0018" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0016" x="3831" y="1018" width="440" height="517" frameX="-5" frameY="-34" frameWidth="440" frameHeight="517"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0062" x="4287" y="1020" width="450" height="518" frameX="-5" frameY="-33" frameWidth="450" frameHeight="518"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0006" x="4754" y="1021" width="440" height="518" frameX="-5" frameY="-32" frameWidth="440" frameHeight="518"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0008" x="5210" y="1021" width="440" height="519" frameX="-5" frameY="-31" frameWidth="440" frameHeight="519"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0040" x="5666" y="1026" width="478" height="519" frameX="-5" frameY="-31" frameWidth="478" frameHeight="519"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0041" x="6159" y="1026" width="522" height="538" frameX="-5" frameY="-13" frameWidth="522" frameHeight="538"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0043" x="6698" y="1028" width="558" height="550" frameX="-5" frameY="-1" frameWidth="558" frameHeight="550"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0042" x="7272" y="1028" width="550" height="550" frameX="-5" frameY="-0" frameWidth="550" frameHeight="550"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0002" x="4895" y="513" width="461" height="492" frameX="-5" frameY="-48" frameWidth="461" frameHeight="492"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0003" x="4895" y="513" width="461" height="492" frameX="-5" frameY="-48" frameWidth="461" frameHeight="492"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0005" x="2919" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0007" x="4754" y="1021" width="440" height="518" frameX="-5" frameY="-32" frameWidth="440" frameHeight="518"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0009" x="5210" y="1021" width="440" height="519" frameX="-5" frameY="-31" frameWidth="440" frameHeight="519"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0010" x="5210" y="1021" width="440" height="519" frameX="-5" frameY="-31" frameWidth="440" frameHeight="519"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0011" x="5210" y="1021" width="440" height="519" frameX="-5" frameY="-31" frameWidth="440" frameHeight="519"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0012" x="5210" y="1021" width="440" height="519" frameX="-5" frameY="-31" frameWidth="440" frameHeight="519"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0013" x="5210" y="1021" width="440" height="519" frameX="-5" frameY="-31" frameWidth="440" frameHeight="519"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0014" x="5210" y="1021" width="440" height="519" frameX="-5" frameY="-31" frameWidth="440" frameHeight="519"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0015" x="5210" y="1021" width="440" height="519" frameX="-5" frameY="-31" frameWidth="440" frameHeight="519"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0017" x="3831" y="1018" width="440" height="517" frameX="-5" frameY="-34" frameWidth="440" frameHeight="517"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0019" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0020" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0021" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0022" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0023" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0024" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0025" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0026" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0027" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0028" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0029" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0030" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0031" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0032" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0033" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0034" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0035" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0036" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0037" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0038" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0039" x="3375" y="1018" width="440" height="516" frameX="-5" frameY="-34" frameWidth="440" frameHeight="516"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0045" x="1986" y="1015" width="451" height="510" frameX="-5" frameY="-40" frameWidth="451" frameHeight="510"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0046" x="1986" y="1015" width="451" height="510" frameX="-5" frameY="-40" frameWidth="451" frameHeight="510"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0047" x="1986" y="1015" width="451" height="510" frameX="-5" frameY="-40" frameWidth="451" frameHeight="510"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0048" x="1986" y="1015" width="451" height="510" frameX="-5" frameY="-40" frameWidth="451" frameHeight="510"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0049" x="1986" y="1015" width="451" height="510" frameX="-5" frameY="-40" frameWidth="451" frameHeight="510"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0050" x="1986" y="1015" width="451" height="510" frameX="-5" frameY="-40" frameWidth="451" frameHeight="510"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0051" x="1986" y="1015" width="451" height="510" frameX="-5" frameY="-40" frameWidth="451" frameHeight="510"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0052" x="1986" y="1015" width="451" height="510" frameX="-5" frameY="-40" frameWidth="451" frameHeight="510"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0053" x="1986" y="1015" width="451" height="510" frameX="-5" frameY="-40" frameWidth="451" frameHeight="510"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0054" x="1986" y="1015" width="451" height="510" frameX="-5" frameY="-40" frameWidth="451" frameHeight="510"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0055" x="1986" y="1015" width="451" height="510" frameX="-5" frameY="-40" frameWidth="451" frameHeight="510"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0056" x="1986" y="1015" width="451" height="510" frameX="-5" frameY="-40" frameWidth="451" frameHeight="510"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0057" x="1986" y="1015" width="451" height="510" frameX="-5" frameY="-40" frameWidth="451" frameHeight="510"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0058" x="1986" y="1015" width="451" height="510" frameX="-5" frameY="-40" frameWidth="451" frameHeight="510"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0059" x="1986" y="1015" width="451" height="510" frameX="-5" frameY="-40" frameWidth="451" frameHeight="510"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0061" x="2453" y="1017" width="450" height="513" frameX="-5" frameY="-38" frameWidth="450" frameHeight="513"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0064" x="8" y="8" width="466" height="485" frameX="-5" frameY="-55" frameWidth="466" frameHeight="485"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0066" x="490" y="8" width="478" height="485" frameX="-5" frameY="-55" frameWidth="478" frameHeight="485"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0068" x="3077" y="8" width="482" height="488" frameX="-5" frameY="-52" frameWidth="482" frameHeight="488"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0070" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0071" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0072" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0073" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0074" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0075" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0076" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0077" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0078" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0079" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0080" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0081" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0082" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0083" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0084" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0085" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0086" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0087" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0088" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0089" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0090" x="4674" y="8" width="482" height="489" frameX="-5" frameY="-51" frameWidth="482" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0092" x="985" y="8" width="498" height="485" frameX="-5" frameY="-55" frameWidth="498" frameHeight="485"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0094" x="1499" y="8" width="496" height="485" frameX="-5" frameY="-55" frameWidth="496" frameHeight="485"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0096" x="3574" y="8" width="551" height="488" frameX="-5" frameY="-52" frameWidth="551" frameHeight="488"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0098" x="2011" y="8" width="517" height="486" frameX="-5" frameY="-54" frameWidth="517" frameHeight="486"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0100" x="2544" y="8" width="517" height="487" frameX="-5" frameY="-53" frameWidth="517" frameHeight="487"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0102" x="4142" y="8" width="517" height="488" frameX="-5" frameY="-52" frameWidth="517" frameHeight="488"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0104" x="5172" y="8" width="517" height="489" frameX="-5" frameY="-51" frameWidth="517" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0106" x="6674" y="8" width="517" height="490" frameX="-5" frameY="-50" frameWidth="517" frameHeight="490"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0107" x="6674" y="8" width="517" height="490" frameX="-5" frameY="-50" frameWidth="517" frameHeight="490"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0110" x="5705" y="8" width="477" height="489" frameX="-5" frameY="-51" frameWidth="477" frameHeight="489"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0112" x="3441" y="512" width="473" height="490" frameX="-5" frameY="-50" frameWidth="473" frameHeight="490"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0114" x="8" y="509" width="474" height="490" frameX="-5" frameY="-50" frameWidth="474" frameHeight="490"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0116" x="498" y="509" width="474" height="490" frameX="-5" frameY="-50" frameWidth="474" frameHeight="490"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0118" x="989" y="509" width="474" height="490" frameX="-5" frameY="-50" frameWidth="474" frameHeight="490"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0120" x="1479" y="509" width="474" height="490" frameX="-5" frameY="-50" frameWidth="474" frameHeight="490"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0122" x="1970" y="510" width="474" height="490" frameX="-5" frameY="-50" frameWidth="474" frameHeight="490"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0124" x="2460" y="511" width="474" height="490" frameX="-5" frameY="-50" frameWidth="474" frameHeight="490"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0126" x="2950" y="512" width="474" height="490" frameX="-5" frameY="-50" frameWidth="474" frameHeight="490"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0128" x="3930" y="512" width="474" height="490" frameX="-5" frameY="-50" frameWidth="474" frameHeight="490"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0134" x="8" y="1014" width="478" height="502" frameX="-5" frameY="-38" frameWidth="478" frameHeight="502"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0136" x="502" y="1014" width="478" height="502" frameX="-5" frameY="-38" frameWidth="478" frameHeight="502"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0138" x="997" y="1014" width="478" height="502" frameX="-5" frameY="-38" frameWidth="478" frameHeight="502"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0140" x="1491" y="1015" width="478" height="502" frameX="-5" frameY="-38" frameWidth="478" frameHeight="502"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0141" x="1491" y="1015" width="478" height="502" frameX="-5" frameY="-38" frameWidth="478" frameHeight="502"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0142" x="1491" y="1015" width="478" height="502" frameX="-5" frameY="-38" frameWidth="478" frameHeight="502"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0143" x="1491" y="1015" width="478" height="502" frameX="-5" frameY="-38" frameWidth="478" frameHeight="502"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0144" x="1491" y="1015" width="478" height="502" frameX="-5" frameY="-38" frameWidth="478" frameHeight="502"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0145" x="1491" y="1015" width="478" height="502" frameX="-5" frameY="-38" frameWidth="478" frameHeight="502"/>
+<SubTexture name="OSWALD MANCO NO PUSO PARED0146" x="1491" y="1015" width="478" height="502" frameX="-5" frameY="-38" frameWidth="478" frameHeight="502"/>
+<SubTexture name="mesa OSWALD0002" x="6198" y="8" width="460" height="489" frameX="-0" frameY="-3" frameWidth="460" frameHeight="489"/>
+<SubTexture name="mesa OSWALD0004" x="4419" y="513" width="460" height="491" frameX="-0" frameY="-1" frameWidth="460" frameHeight="491"/>
+<SubTexture name="mesa OSWALD0006" x="5372" y="513" width="460" height="492" frameX="-0" frameY="-0" frameWidth="460" frameHeight="492"/>
+<SubTexture name="mesa OSWALD0007" x="5372" y="513" width="460" height="492" frameX="-0" frameY="-0" frameWidth="460" frameHeight="492"/>
+<SubTexture name="mesa OSWALD0008" x="5372" y="513" width="460" height="492" frameX="-0" frameY="-0" frameWidth="460" frameHeight="492"/>
+<SubTexture name="mesa OSWALD0009" x="5372" y="513" width="460" height="492" frameX="-0" frameY="-0" frameWidth="460" frameHeight="492"/>
+<SubTexture name="mesa OSWALD0010" x="5372" y="513" width="460" height="492" frameX="-0" frameY="-0" frameWidth="460" frameHeight="492"/>
+<SubTexture name="mesa OSWALD0011" x="5372" y="513" width="460" height="492" frameX="-0" frameY="-0" frameWidth="460" frameHeight="492"/>
+<SubTexture name="mesa OSWALD0012" x="5372" y="513" width="460" height="492" frameX="-0" frameY="-0" frameWidth="460" frameHeight="492"/>
+</TextureAtlas>

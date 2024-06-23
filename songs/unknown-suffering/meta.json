@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 200,
+	"difficulties": [
+		"hard",
+		"242k"
+	],
+	"needsVoices": true,
+	"parsedColor": -8552320,
+	"displayName": "Unknown Suffering",
+	"icon": "mouse-phase2",
+	"name": "unknown-suffering",
+	"color": "#7D8080"
+}

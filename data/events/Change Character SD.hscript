@@ -1,0 +1,104 @@
+import Xml;
+
+static var preloaded = [];
+var dataShit = [];
+
+function preload(imagePath:String) {
+	if (preloaded.contains(imagePath)) {
+		trace(imagePath + ' is already preloaded, skipping');
+		return;
+	}
+
+	var graphic = FlxG.bitmap.add(Paths.image(imagePath));
+	graphic.useCount++;
+	graphic.destroyOnNoUse = false;
+	graphicCache.cachedGraphics.push(graphic);
+	graphicCache.nonRenderedCachedGraphics.push(graphic);
+
+	preloaded.push(imagePath);
+}
+
+function postCreate() {
+	for (event in events)
+		if (event.name == 'Change Character') {
+			var data = {
+				name: Assets.exists(Paths.xml('characters/' + event.params[2])) ? event.params[2] : 'bf-dside',
+				icon: '',
+				xml: null,
+				newCharacter: null
+			};
+			data.xml = Xml.parse(Assets.getText(Paths.xml('characters/' + data.name))).firstElement();
+			data.icon = data.xml.exists('icon') ? data.xml.get('icon').toLowerCase() : Assets.exists(Paths.image('sd-icons/' + data.name.toLowerCase())) ? data.name.toLowerCase() : 'bf-dside';
+			if (!Assets.exists(Paths.image('sd-icons/' + data.icon)))
+				data.icon = 'bf-dside';
+
+			data.newCharacter = new Character(0, 0, data.name, strumLines.members[event.params[0]].characters[0].isPlayer);
+			data.newCharacter.active = false;
+			add(data.newCharacter);
+			remove(data.newCharacter);
+
+			preload('sd-icons/' + data.icon);
+
+			var spriteName:String = data.xml.exists('sprite') ? data.xml.get('sprite') : data.name;
+
+			if (!Assets.exists(Paths.image('characters/' + spriteName + '/1')))
+				if (Assets.exists(Paths.image('characters/' + spriteName)))
+					preload('characters/' + spriteName);
+				else
+					preload('characters/bf-dside');
+			else
+				for (i in Paths.getFolderContent('images/characters/' + spriteName + '/'))
+					if (!StringTools.endsWith(i, '.xml'))
+						preload('characters/' + spriteName + '/' + StringTools.replace(i, '.png', ''));
+
+			dataShit.push(data);
+		}
+}
+
+function onEvent(_)
+	if (_.event.name == 'Change Character') {
+		var data = dataShit.pop();
+		var character:Character = strumLines.members[_.event.params[0]].characters[_.event.params[1]];
+
+		var cancelled:Bool = false;
+		var scriptArray:Array<String> = [data.newCharacter.script, scripts];
+		if (character != null) scriptArray.insert(0, character.script);
+		for (i in scriptArray)
+			i.call('onCharacterChange', [{
+				cancel: function() {
+					cancelled = true;
+				},
+				data: {
+					name: data.name,
+					icon: data.icon,
+					xml: data.xml,
+					newCharacter: data.newCharacter,
+					oldCharacter: character != null ? character : null
+				},
+				strumLine: strumLines.members[_.event.params[0]]
+			}]);
+
+		if (cancelled) return;
+
+		var isPlayer:Bool = strumLines.members[_.event.params[0]].characters[0].isPlayer;
+		
+		if (character != null) {
+			strumLines.members[_.event.params[0]].characters.remove(character);
+			remove(character);
+		}
+		data.newCharacter.active = true;
+		stage.applyCharStuff(data.newCharacter, strumLines.members[_.event.params[0]].data.position, _.event.params[1]);
+		strumLines.members[_.event.params[0]].characters.insert(_.event.params[1], data.newCharacter);
+
+		for (i in scriptArray)
+			i.call('onPostCharacterChange', [{
+				data: {
+					name: data.name,
+					icon: data.icon,
+					xml: data.xml,
+					newCharacter: data.newCharacter,
+					oldCharacter: character != null ? character : null
+				},
+				strumLine: strumLines.members[_.event.params[0]]
+			}]);
+	}

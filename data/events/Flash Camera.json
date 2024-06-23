@@ -1,0 +1,24 @@
+{
+	"params": [
+		{
+			"name": "Color",
+			"type": "ColorWheel",
+			"defaultValue": "#FFFFFF"
+		},
+		{
+			"name": "Time",
+			"type": "Float(0.001, 10, 1, 10)",
+			"defaultValue": 0
+		},
+		{
+			"name": "Force",
+			"type": "Bool",
+			"defaultValue": true
+		},
+		{
+			"name": "Camera",
+			"type": "DropDown('camGame', 'camHUD')",
+			"defaultValue": "camGame"
+		}
+	]
+}

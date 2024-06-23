@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="desolation-rabbit.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ULCLosing0000" x="10" y="10" width="159" height="107" frameX="0" frameY="0" frameWidth="160" frameHeight="109"/>
+	<SubTexture name="ULCLosing0001" x="179" y="10" width="158" height="108" frameX="0" frameY="-1" frameWidth="160" frameHeight="109"/>
+	<SubTexture name="ULCLosing0002" x="347" y="10" width="158" height="101" frameX="-1" frameY="-2" frameWidth="160" frameHeight="109"/>
+	<SubTexture name="ULCLosing0003" x="515" y="10" width="157" height="103" frameX="-1" frameY="-1" frameWidth="160" frameHeight="109"/>
+	<SubTexture name="ULCLosing0004" x="682" y="10" width="159" height="99" frameX="-1" frameY="0" frameWidth="160" frameHeight="109"/>
+	<SubTexture name="ULCLosing0005" x="851" y="10" width="158" height="98" frameX="-1" frameY="0" frameWidth="160" frameHeight="109"/>
+	<SubTexture name="ULCNormal0000" x="10" y="128" width="158" height="120" frameX="0" frameY="0" frameWidth="160" frameHeight="123"/>
+	<SubTexture name="ULCNormal0001" x="10" y="128" width="158" height="120" frameX="0" frameY="0" frameWidth="160" frameHeight="123"/>
+	<SubTexture name="ULCNormal0002" x="178" y="128" width="153" height="121" frameX="-7" frameY="-1" frameWidth="160" frameHeight="123"/>
+	<SubTexture name="ULCNormal0003" x="178" y="128" width="153" height="121" frameX="-7" frameY="-1" frameWidth="160" frameHeight="123"/>
+	<SubTexture name="ULCNormal0004" x="341" y="128" width="149" height="121" frameX="-11" frameY="-2" frameWidth="160" frameHeight="123"/>
+	<SubTexture name="ULCNormal0005" x="341" y="128" width="149" height="121" frameX="-11" frameY="-2" frameWidth="160" frameHeight="123"/>
+	<SubTexture name="ULCNormal0006" x="500" y="128" width="148" height="121" frameX="-11" frameY="-1" frameWidth="160" frameHeight="123"/>
+	<SubTexture name="ULCNormal0007" x="500" y="128" width="148" height="121" frameX="-11" frameY="-1" frameWidth="160" frameHeight="123"/>
+	<SubTexture name="ULCNormal0008" x="658" y="128" width="147" height="120" frameX="-10" frameY="0" frameWidth="160" frameHeight="123"/>
+	<SubTexture name="ULCNormal0009" x="658" y="128" width="147" height="120" frameX="-10" frameY="0" frameWidth="160" frameHeight="123"/>
+	<SubTexture name="ULCNormal0010" x="815" y="128" width="147" height="120" frameX="-10" frameY="0" frameWidth="160" frameHeight="123"/>
+	<SubTexture name="ULCNormal0011" x="815" y="128" width="147" height="120" frameX="-10" frameY="0" frameWidth="160" frameHeight="123"/>
+	<SubTexture name="ULCNormal0012" x="815" y="128" width="147" height="120" frameX="-10" frameY="0" frameWidth="160" frameHeight="123"/>
+	<SubTexture name="ULCNormal0013" x="815" y="128" width="147" height="120" frameX="-10" frameY="0" frameWidth="160" frameHeight="123"/>
+	<SubTexture name="ULCNormal0014" x="815" y="128" width="147" height="120" frameX="-10" frameY="0" frameWidth="160" frameHeight="123"/>
+</TextureAtlas>

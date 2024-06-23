@@ -1,0 +1,16 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 116,
+	"difficulties": [
+		"hard"
+	],
+	"needsVoices": true,
+	"parsedColor": -8092540,
+	"displayName": "Sunsets",
+	"icon": "happymouses",
+	"name": "sunsets",
+	"color": "#848484"
+}

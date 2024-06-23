@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="desolation-friend.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BFS0000" x="10" y="10" width="95" height="84" frameX="-1" frameY="-1" frameWidth="100" frameHeight="85"/>
+	<SubTexture name="BFS0001" x="115" y="10" width="94" height="85" frameX="0" frameY="0" frameWidth="100" frameHeight="85"/>
+	<SubTexture name="BFS0002" x="219" y="10" width="94" height="82" frameX="-2" frameY="-3" frameWidth="100" frameHeight="85"/>
+	<SubTexture name="BFS0003" x="323" y="10" width="93" height="82" frameX="-2" frameY="-3" frameWidth="100" frameHeight="85"/>
+	<SubTexture name="BFS0004" x="10" y="105" width="98" height="81" frameX="-2" frameY="-4" frameWidth="100" frameHeight="85"/>
+	<SubTexture name="BFS0005" x="10" y="105" width="98" height="81" frameX="-2" frameY="-4" frameWidth="100" frameHeight="85"/>
+	<SubTexture name="BFS0006" x="118" y="105" width="96" height="82" frameX="-2" frameY="-3" frameWidth="100" frameHeight="85"/>
+	<SubTexture name="BFS0007" x="118" y="105" width="96" height="82" frameX="-2" frameY="-3" frameWidth="100" frameHeight="85"/>
+	<SubTexture name="BFS0008" x="224" y="105" width="96" height="83" frameX="-1" frameY="-2" frameWidth="100" frameHeight="85"/>
+	<SubTexture name="BFS0009" x="224" y="105" width="96" height="83" frameX="-1" frameY="-2" frameWidth="100" frameHeight="85"/>
+	<SubTexture name="BFS0010" x="330" y="105" width="96" height="83" frameX="-1" frameY="-2" frameWidth="100" frameHeight="85"/>
+	<SubTexture name="BFS0011" x="330" y="105" width="96" height="83" frameX="-1" frameY="-2" frameWidth="100" frameHeight="85"/>
+	<SubTexture name="BFS0012" x="330" y="105" width="96" height="83" frameX="-1" frameY="-2" frameWidth="100" frameHeight="85"/>
+	<SubTexture name="BFS0013" x="330" y="105" width="96" height="83" frameX="-1" frameY="-2" frameWidth="100" frameHeight="85"/>
+	<SubTexture name="BFS0014" x="330" y="105" width="96" height="83" frameX="-1" frameY="-2" frameWidth="100" frameHeight="85"/>
+	<SubTexture name="BFSLosing0000" x="10" y="198" width="105" height="75" frameX="-1" frameY="0" frameWidth="107" frameHeight="76"/>
+	<SubTexture name="BFSLosing0001" x="125" y="198" width="105" height="75" frameX="-1" frameY="0" frameWidth="107" frameHeight="76"/>
+	<SubTexture name="BFSLosing0002" x="240" y="198" width="105" height="76" frameX="-2" frameY="0" frameWidth="107" frameHeight="76"/>
+	<SubTexture name="BFSLosing0003" x="355" y="198" width="105" height="75" frameX="-1" frameY="0" frameWidth="107" frameHeight="76"/>
+	<SubTexture name="BFSLosing0004" x="10" y="284" width="105" height="76" frameX="0" frameY="0" frameWidth="107" frameHeight="76"/>
+	<SubTexture name="BFSLosing0005" x="125" y="284" width="105" height="75" frameX="0" frameY="0" frameWidth="107" frameHeight="76"/>
+</TextureAtlas>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-250" icon="cheese" y="50" antialiasing="false" isGF="false" isPlayer="false" scale="1.2" holdTime="6.1" sprite="cheese">
+	<anim x="0" loop="false" y="-47" fps="22" anim="Cheddar-right" name="singRIGHT"/>
+	<anim x="0" loop="false" y="-13" fps="22" anim="Cheddar-left" name="singLEFT"/>
+	<anim x="1" loop="false" y="73" fps="22" anim="Cheddar-up" name="singUP"/>
+	<anim x="55" loop="false" y="-137" fps="22" anim="Cheddar-down" name="singDOWN"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="Cheddar-idle" name="idle1"/>
+</character>

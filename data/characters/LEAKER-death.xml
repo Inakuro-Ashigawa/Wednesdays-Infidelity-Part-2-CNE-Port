@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="LEAKER 1" y="370" isGF="false" scale="1.2" color="#7D8080" isPlayer="false" antialiasing="false" gameOverChar="LEAKER 1" sprite="LEAKERS DEAD">
+	<anim x="-216" loop="false" y="83" fps="24" anim="LEAKERS DEATH0" name="BF dies"/>
+	<anim x="-375" loop="true" y="-304" fps="24" anim="LEAKERS DEATH LOOP" name="BF Dead Loop"/>
+	<anim x="-353" loop="false" y="-141" fps="24" anim="LEAKERS DEATH CONFIRM" name="BF Dead confirm"/>
+	<anim x="154" loop="false" y="270" fps="24" anim="LEAKERS BALACEADOS" name="shoot"/>
+	<anim x="154" loop="false" y="270" fps="24" anim="LEAKERS BALACEADOS26" name="idle"/>
+</character>

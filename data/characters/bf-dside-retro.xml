@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-56" icon="bf-dside-worried" camx="13" y="301" camy="34" color="#867D8E" isPlayer="true" flipX="true" holdTime="4" gameOverChar="bf-dside-dead">
+	<anim x="0" loop="false" y="-2" fps="12" anim="idle" name="idle"/>
+	<anim x="28" loop="false" y="-8" fps="12" anim="left" name="singLEFT"/>
+	<anim x="-8" loop="false" y="-47" fps="12" anim="down" name="singDOWN"/>
+	<anim x="-75" loop="false" y="40" fps="12" anim="up" name="singUP"/>
+	<anim x="-54" loop="false" y="0" fps="12" anim="right" name="singRIGHT"/>
+</character>

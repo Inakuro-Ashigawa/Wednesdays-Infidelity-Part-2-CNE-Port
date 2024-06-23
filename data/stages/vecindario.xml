@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/vecindario/" zoom="0.67">
+	<girlfriend/>
+	<sprite x="-600" y="-200" sprite="VecindarioBG" name="VecindarioBG"/>
+	<dad x="100" y="99"/>
+	<boyfriend x="770" y="100"/>
+	<combo x="698.5" y="374"/>
+</stage>

@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="1" folder="stages/fence">
+	<sprite name="sky" x="-600" y="-450" sprite="sky" scroll="0.15" scale="0.8" zoomfactor="0.25"/>
+	<sprite name="trees" x="-900" y="-350" sprite="trees" scroll="0.5" scale="0.6" zoomfactor="0.5"/>
+	<sprite name="ground" x="-704.35" y="-401.95" sprite="ground" scroll="0.4" scale="0.8" zoomfactor="0.75"/>
+	<sprite name="fence" x="-850" y="-400" sprite="fence" scale="0.8"/>
+	<sprite name="lampFire" x="155" y="130" sprite="lamp-fire" scale="1.2" />
+
+	<ratings x="600" y="500"/>
+
+	<dad x="-75" y="150" camx="360"/>
+	<boyfriend x="875" y="175"/>
+</stage>
